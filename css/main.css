@@ -76,7 +76,7 @@ body {
  * links - (_document-setup) 
  * ------------------------------------------------------------------- */
 a, a:visited {
-  color: #07617d;
+  color: #A585A5;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -85,7 +85,7 @@ a, a:visited {
 }
 
 a:hover, a:focus {
-  color: #000000;
+  color: #FFF;
 }
 
 
@@ -332,7 +332,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #07617d;
+  background: #A585A5;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -341,7 +341,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #07617d;
+  color: #A585A5;
 }
 
 dd {
@@ -353,6 +353,7 @@ dd {
  * ------------------------------------------------------------------- */
 button, .button {
   margin-bottom: 1.2rem;
+  color: rgba(242, 242, 242, 0.4) !important;
 }
 
 fieldset {
@@ -471,7 +472,7 @@ td:last-child {
 }
 
 .pace .pace-progress {
-  background: #f9a828;
+  background: #F5D5F5;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -510,7 +511,7 @@ td:last-child {
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
-  background-color: #f9a828;
+  background-color: #F5D5F5;
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -726,7 +727,7 @@ input[type="button"] {
   padding: 0 3rem;
   margin: 0 .3rem 1.2rem 0;
   background: #A5A5A5;
-  color: #222222;
+  color: rgba(242, 242, 242, 0.4);
   text-decoration: none;
   cursor: pointer;
   text-align: center;
@@ -798,7 +799,7 @@ button.large, .button.large {
 
 button.stroke, .button.stroke {
   background: transparent !important;
-  border: 3px solid #313131;
+  border: 3px solid rgba(242, 242, 242, 0.4);
   line-height: 4.8rem;
 }
 
@@ -998,7 +999,7 @@ input::-moz-focus-inner {
   color: #252525;
 }
 .stats-tabs li a:hover {
-  color: #07617d;
+  color: #A585A5;
 }
 .stats-tabs li a em {
   display: block;
@@ -1786,13 +1787,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   max-width: 850px;
 }
 #about span {
-  color: #07617d;
+  color: #A585A5;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #A585A5;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -1892,10 +1893,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  min-height: 800px;
+  min-height: 500px;
   position: relative;
   padding: 15rem 0 15rem;
   color: rgba(255, 255, 255, 0.3);
+}
+.services-last {
+  padding-bottom: 3rem !important;
 }
 #services .overlay {
   position: absolute;
@@ -1947,7 +1951,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .icon i {
   font-size: 5.4rem;
-  color: #f9a828;
+  color: #F5D5F5;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
@@ -2272,7 +2276,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #A585A5;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -2804,10 +2808,11 @@ footer {
   margin: 0 0 5.4rem 0;
   padding: 0;
   font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #F5D5F5;
 }
 footer a, footer a:visited {
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.75);
 }
 footer a:hover, footer a:focus {
   color: #f9a828;
@@ -2896,7 +2901,6 @@ footer h4.h05::after {
 /* footer bottom
  * --------------------------------- */
 .footer-bottom {
-  margin-top: 3rem;
   text-align: center;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
