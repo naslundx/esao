@@ -752,7 +752,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   background: #989898;
-  color: #000000;
+  color: #F5D5F5 !important; 
   outline: 0;
 }
 
@@ -812,8 +812,8 @@ button.stroke.large, .button.stroke.large {
 }
 
 button.stroke:hover, .button.stroke:hover {
-  border: 3px solid #f9a828;
-  color: #f9a828;
+  border: 3px solid #F5D5F5;
+  color: #F5D5F5;
 }
 
 button::-moz-focus-inner,
