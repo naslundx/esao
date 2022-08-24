@@ -1560,7 +1560,7 @@ header .header-logo a {
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 804px;
   position: relative;
 }
