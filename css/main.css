@@ -203,7 +203,7 @@ p.lead {
   font-family: "montserrat-regular", sans-serif;
   font-size: 2rem;
   line-height: 1.8;
-  color: #4f4f4f;
+  color: #fff;
   margin-bottom: 3.6rem;
 }
 @media only screen and (max-width: 768px) {
@@ -397,7 +397,7 @@ dd {
  * ------------------------------------------------------------------- */
 button, .button {
   margin-bottom: 1.2rem;
-  color: rgba(242, 242, 242, 0.4) !important;
+  color: rgba(242, 242, 242, 0.7) !important;
 }
 
 fieldset {
@@ -516,7 +516,7 @@ td:last-child {
 }
 
 .pace .pace-progress {
-  background: #F5D5F5;
+  background: #f0bef0;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -555,7 +555,7 @@ td:last-child {
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
-  background-color: #F5D5F5;
+  background-color: #f0bef0;
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -771,7 +771,7 @@ input[type="button"] {
   padding: 0 3rem;
   margin: 0 .3rem 1.2rem 0;
   background: #A5A5A5;
-  color: rgba(242, 242, 242, 0.4);
+  color: rgba(242, 242, 242, 0.7);
   text-decoration: none;
   cursor: pointer;
   text-align: center;
@@ -796,7 +796,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   background: #989898;
-  color: #F5D5F5 !important; 
+  color: #f0bef0 !important; 
   outline: 0;
 }
 
@@ -843,7 +843,7 @@ button.large, .button.large {
 
 button.stroke, .button.stroke {
   background: transparent !important;
-  border: 3px solid rgba(242, 242, 242, 0.4);
+  border: 3px solid rgba(242, 242, 242, 0.7);
   line-height: 4.8rem;
 }
 
@@ -856,8 +856,8 @@ button.stroke.large, .button.stroke.large {
 }
 
 button.stroke:hover, .button.stroke:hover {
-  border: 3px solid #F5D5F5;
-  color: #F5D5F5;
+  border: 3px solid #f0bef0;
+  color: #f0bef0;
 }
 
 button::-moz-focus-inner,
@@ -1553,7 +1553,7 @@ header .header-logo a {
 #home {
   width: 100%;
   height: 100%;
-  background-color: #F5D5F5;
+  background-color: #f0bef0;
   background-image: url('../images/esaologo.png');
   background-repeat:no-repeat;
   background-position: center 30%;
@@ -1931,7 +1931,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/services-bg.jpg);
+  background-image: url(../images/mathbg1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -1939,8 +1939,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-size: cover;
   min-height: 500px;
   position: relative;
-  padding: 15rem 0 15rem;
-  color: rgba(255, 255, 255, 0.3);
+  padding: 10rem 0 6rem;
+  color: rgba(255, 255, 255, 0.7);
 }
 .services-last {
   padding-bottom: 3rem !important;
@@ -1951,7 +1951,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(5, 5, 5, 0.7);
+  background-color: rgba(5, 5, 5, 0.8);
 }
 #services .gradient-overlay {
   position: absolute;
@@ -1972,7 +1972,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #FFFFFF;
 }
 #services .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: rgba(242, 242, 242, 0.7);
 }
 #services .services-content {
   text-align: center;
@@ -1987,7 +1987,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0 50px;
 }
 #services .services-list .service-item p {
-  color: rgba(242, 242, 242, 0.5);
+  color: rgba(242, 242, 242, 0.8);
 }
 #services .services-list .icon {
   display: inline-block;
@@ -1995,7 +1995,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .icon i {
   font-size: 5.4rem;
-  color: #F5D5F5;
+  color: #f0bef0;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
@@ -2068,7 +2068,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #FFFFFF;
 }
 #portfolio .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: rgba(242, 242, 242, 0.7);
 }
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
@@ -2581,7 +2581,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: rgba(242, 242, 242, 0.5);
 }
 #contact .section-intro p.lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: rgba(242, 242, 242, 0.7);
 }
 
 .contact-content {
@@ -2853,7 +2853,7 @@ footer {
   padding: 0;
   font-size: 1.5rem;
   color: rgba(0, 0, 0, 0.65);
-  background-color: #F5D5F5;
+  background-color: #f0bef0;
 }
 footer a, footer a:visited {
   color: rgba(0, 0, 0, 0.75);
@@ -2977,8 +2977,8 @@ footer h4.h05::after {
   width: 60px;
   line-height: 63px;
   text-align: center;
-  background-color: #000000;
-  color: #888;
+  background-color: #f0bef0;
+  color: #000;
   text-align: center;
   text-transform: uppercase;
   -moz-transition: all 0.3s ease-in-out;
@@ -2986,18 +2986,30 @@ footer h4.h05::after {
   -webkit-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  border-radius: 10px;
 }
 #go-top a i {
-  font-size: 1.7rem;
+  font-size: 3rem;
   line-height: inherit;
 }
 #go-top a:visited {
-  background: #000000;
+  background: #f0bef0;
   color: #888;
 }
 #go-top a:hover, #go-top a:focus {
-  background: #000000;
-  color: #FFFFFF;
+  background: #f0bef0;
+  color: #fff;
+}
+
+.kvadratrot-img {
+  background-image: url('../images/logo.jpg');
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: -3rem;
+  margin-bottom: 1rem;
 }
 
 /* ------------------------------------------------------------------- 
