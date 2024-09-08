@@ -2401,7 +2401,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #testimonials .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
-  zoom: 1;
+  transform: scale(1);
+  transform-origin: 0 0;
 }
 
 #testimonials .flex-control-paging li a {
@@ -2531,7 +2532,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #clients .owl-carousel .owl-dots .owl-dot {
   display: inline-block;
-  zoom: 1;
+  transform: scale(1);
+  transform-origin: 0 0;
   *display: inline;
 }
 #clients .owl-carousel .owl-dots .owl-dot span {
