@@ -199,6 +199,11 @@ p img {
   margin: 0;
 }
 
+p emph {
+  font-weight: bold;
+  font-style: italic;
+}
+
 p.lead {
   font-family: "montserrat-regular", sans-serif;
   font-size: 2rem;
