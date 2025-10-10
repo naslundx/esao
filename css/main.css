@@ -771,7 +771,6 @@ input[type="button"] {
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  height: 5.4rem;
   line-height: 5.4rem;
   padding: 0 3rem;
   margin: 0 .3rem 1.2rem 0;
@@ -780,7 +779,6 @@ input[type="button"] {
   text-decoration: none;
   cursor: pointer;
   text-align: center;
-  white-space: nowrap;
   border: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
