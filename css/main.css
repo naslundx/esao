@@ -1946,7 +1946,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/mathbg1.jpg);
+  background-image: url(../images/whatif.png);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2067,10 +2067,28 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #portfolio {
-  background: #FFFFFF;
-  min-height: 800px;
+  background-color: #19191b;
+  background-image: url(../images/mathbg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
   position: relative;
-  padding: 0;
+  padding: 10rem 0 6rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+#portfolio p {
+    font-size: large;
+}
+#portfolio .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.9);
 }
 #portfolio .intro-wrap {
   padding: 15rem 0 21rem;
