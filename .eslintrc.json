@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "jquery": true,
+    "es6": false
+  },
+  "extends": "eslint:recommended",
+  "plugins": ["jquery"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "no-mixed-spaces-and-tabs": "off"
+  }
+}
