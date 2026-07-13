@@ -35,7 +35,12 @@
 	    	$("#loader").fadeOut("slow", function(){
 
 	        // will fade out the whole DIV that covers the website.
-	        $("#preloader").delay(300).fadeOut("slow");
+	        $("#preloader").delay(300).fadeOut("slow", function() {
+				// refresh waypoints after preloader is gone
+				if (typeof Waypoint !== 'undefined') {
+					Waypoint.refreshAll();
+				}
+			});
 
 	      }); 
 	  	});
@@ -60,6 +65,11 @@
 			  	itemSelector: '.brick',
 			  	resize: true
 			});
+
+			// refresh waypoints after masonry layout
+			if (typeof Waypoint !== 'undefined') {
+				Waypoint.refreshAll();
+			}
 		});
 	};
 
@@ -397,7 +407,22 @@
 
 
   
-  /* Initialize
+	  /* Tabs
+		* ------------------------------------------------------ */
+		var ssTabs = function() {
+			$('.tabs-nav li').on('click', function() {
+				var tabId = $(this).attr('data-id');
+
+				$('.tabs-nav li').removeClass('active');
+				$(this).addClass('active');
+
+				$('.tab-content').removeClass('active');
+				$('#' + tabId).addClass('active');
+			});
+		};
+
+
+	  /* Initialize
 	* ------------------------------------------------------ */
 	(function ssInit() {
 
@@ -417,6 +442,7 @@
 		ssContactForm();
 		ssAjaxChimp();
 		ssBackToTop();
+		ssTabs();
 
 	})();
  

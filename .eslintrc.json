@@ -4,6 +4,9 @@
     "jquery": true,
     "es6": false
   },
+  "globals": {
+    "Waypoint": "readonly"
+  },
   "extends": "eslint:recommended",
   "plugins": ["jquery"],
   "rules": {

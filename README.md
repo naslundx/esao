@@ -2,6 +2,13 @@
 
 Theme originally based on INFINITY from http://www.Styleshout.com
 
+## Features
+
+- **Media Section**: Highlights recent mentions and reviews of the book.
+- **Extramaterial**: Chapter-by-chapter extra content (errata, links, recommendations) with an interactive tab interface.
+- **Performance Optimized**: Lazy loading for images and deferred script execution.
+- **Mobile Friendly**: Responsive design for all screen sizes.
+
 ## Development
 
 This project uses ESLint and Stylelint to maintain code quality.
