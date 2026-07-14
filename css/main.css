@@ -1,4 +1,4 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Infinity v1.0 Main Stylesheet
  *  01-02-2017
@@ -12,7 +12,7 @@
  *  05. forms
  *  06. buttons
  *  07. other components
- *  08. common and reusable styles 
+ *  08. common and reusable styles
  *  09. header styles
  *  10. home
  *  11. about
@@ -35,9 +35,9 @@
  * fonts.scss)
  *
  * ------------------------------------------------------------------- */
- 
+
 /*
- * Libre Baskerville 
+ * Libre Baskerville
 ================================================================================ */
 @font-face {
   font-family: "librebaskerville-regular";
@@ -116,8 +116,8 @@ body {
   padding: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * links - (_document-setup) 
+/* -------------------------------------------------------------------
+ * links - (_document-setup)
  * ------------------------------------------------------------------- */
 a, a:visited {
   color: #A585A5;
@@ -134,7 +134,7 @@ a:hover, a:focus {
 
 
 /* ===================================================================
- *  03. typography & general theme styles - (_document-setup.scss) 
+ *  03. typography & general theme styles - (_document-setup.scss)
  *
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6,
@@ -341,8 +341,8 @@ hr {
   height: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * Lists - (_document-setup.scss)  
+/* -------------------------------------------------------------------
+ * Lists - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 ol {
   list-style: decimal;
@@ -397,8 +397,8 @@ dd {
   margin: 0 0 0 2rem;
 }
 
-/* ------------------------------------------------------------------- 
- * Spacing - (_document-setup)  
+/* -------------------------------------------------------------------
+ * Spacing - (_document-setup)
  * ------------------------------------------------------------------- */
 button, .button {
   margin-bottom: 1.2rem;
@@ -426,8 +426,8 @@ form,
   margin-bottom: 3rem;
 }
 
-/* ------------------------------------------------------------------- 
- * floated image - (_document-setup)  
+/* -------------------------------------------------------------------
+ * floated image - (_document-setup)
  * ------------------------------------------------------------------- */
 img.pull-right {
   margin: 1.5rem 0 0 3rem;
@@ -437,7 +437,7 @@ img.pull-left {
   margin: 1.5rem 3rem 0 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * block grids paddings
  * ------------------------------------------------------------------- */
 .bgrid {
@@ -464,8 +464,8 @@ img.pull-left {
   }
 }
 
-/* ------------------------------------------------------------------- 
- * tables - (_document-setup.scss)  
+/* -------------------------------------------------------------------
+ * tables - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 table {
   border-width: 0;
@@ -505,7 +505,7 @@ td:last-child {
   -webkit-overflow-scrolling: touch;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * pace.js styles - minimal  - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 .pace {
@@ -712,7 +712,7 @@ label > input[type="radio"] {
   top: .15rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * Style Placeholder Text - (_forms.scss)
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
@@ -737,7 +737,7 @@ label > input[type="radio"] {
   color: #8e8e8e !important;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * Change Autocomplete styles in Chrome - (_forms.scss)
  * ------------------------------------------------------------------- */
 input:-webkit-autofill,
@@ -799,7 +799,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   background: #989898;
-  color: #f0bef0 !important; 
+  color: #f0bef0 !important;
   outline: 0;
 }
 
@@ -914,10 +914,10 @@ input::-moz-focus-inner {
   color: #bba31b;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * additional typo styles - (_additional-typo.scss)
  * ------------------------------------------------------------------- */
-/* drop cap 
+/* drop cap
  * ----------------------------------------------- */
 .drop-cap:first-letter {
   float: left;
@@ -931,7 +931,7 @@ input::-moz-focus-inner {
   color: #151515;
 }
 
-/* line definition style 
+/* line definition style
  * ----------------------------------------------- */
 .lining dt, .lining dd {
   display: inline;
@@ -953,7 +953,7 @@ input::-moz-focus-inner {
   margin-left: -0.2em;
 }
 
-/* dictionary definition style 
+/* dictionary definition style
  * ----------------------------------------------- */
 .dictionary-style dt {
   display: inline;
@@ -971,7 +971,7 @@ input::-moz-focus-inner {
   content: counter(definitions,decimal) ". ";
 }
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -1011,7 +1011,7 @@ input::-moz-focus-inner {
   content: none;
 }
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -1173,7 +1173,7 @@ input::-moz-focus-inner {
 }
 
 /* ===================================================================
- *  08. common and reusable styles 
+ *  08. common and reusable styles
  *
  * ------------------------------------------------------------------- */
 .section-intro {
@@ -1213,7 +1213,7 @@ input::-moz-focus-inner {
   text-align: center;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * section-intro
  * ------------------------------------------------------------------- */
@@ -1289,8 +1289,8 @@ header .row {
   position: relative;
 }
 
-/* ------------------------------------------------------------------- 
- * header logo - (_layout.css) 
+/* -------------------------------------------------------------------
+ * header logo - (_layout.css)
  * ------------------------------------------------------------------- */
 header .header-logo {
   position: absolute;
@@ -1322,8 +1322,8 @@ header .header-logo a {
   transition: all 0.5s ease-in-out;
 }
 
-/* ------------------------------------------------------------------- 
- * menu trigger - (_layout.css) 
+/* -------------------------------------------------------------------
+ * menu trigger - (_layout.css)
  * ------------------------------------------------------------------- */
 #header-menu-trigger {
   display: block;
@@ -1377,7 +1377,7 @@ header .header-logo a {
   right: 9px;
   margin-top: -1.5px;
 }
-#header-menu-trigger .header-menu-icon::before, 
+#header-menu-trigger .header-menu-icon::before,
 #header-menu-trigger .header-menu-icon::after {
   content: '';
   width: 100%;
@@ -1393,8 +1393,8 @@ header .header-logo a {
   bottom: -9px;
 }
 
-/* ------------------------------------------------------------------- 
- * off-canvas menu - (_layout.scss) 
+/* -------------------------------------------------------------------
+ * off-canvas menu - (_layout.scss)
  * ------------------------------------------------------------------- */
 #menu-nav-wrap {
   background: #0C0C0C;
@@ -1453,7 +1453,7 @@ header .header-logo a {
   color: rgba(255, 255, 255, 0.25);
   display: block;
 }
-#menu-nav-wrap .nav-list li a:hover, 
+#menu-nav-wrap .nav-list li a:hover,
 #menu-nav-wrap .nav-list li a:focus {
   color: white;
 }
@@ -1471,7 +1471,7 @@ header .header-logo a {
 #menu-nav-wrap .header-social-list li a {
   color: rgba(255, 255, 255, 0.15);
 }
-#menu-nav-wrap .header-social-list li a:hover, 
+#menu-nav-wrap .header-social-list li a:hover,
 #menu-nav-wrap .header-social-list li a:focus {
   color: white;
 }
@@ -1491,7 +1491,7 @@ header .header-logo a {
   text-shadow: none;
   color: transparent;
 }
-#menu-nav-wrap .close-button span::before, 
+#menu-nav-wrap .close-button span::before,
 /* ===================================================================
  * 15. Media Section
  * ------------------------------------------------------------------- */
@@ -1556,7 +1556,7 @@ header .header-logo a {
  * 16. Extramaterial Section
  * ------------------------------------------------------------------- */
 #extramaterial {
-  background: #FFFFFF;
+  background: #DBB;
   padding-top: 12rem;
   padding-bottom: 12rem;
 }
@@ -1669,9 +1669,9 @@ header .header-logo a {
   -webkit-overflow-scrolling: touch;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * header section 
+ * header section
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .header-logo a {
@@ -1795,8 +1795,8 @@ header .header-logo a {
 .home-social-list li a i.fa {
     font-size: 5rem;
 }
-.home-social-list li a:hover, 
-.home-social-list li a:focus, 
+.home-social-list li a:hover,
+.home-social-list li a:focus,
 .home-social-list li a:active {
   color: #151515;
 }
@@ -1865,9 +1865,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * home section 
+ * home section
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
   .home-content-tablecell h3 {
@@ -2011,9 +2011,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-top: 6rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * about 
+ * about
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
   #about {
@@ -2157,7 +2157,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 3rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * services
  * ------------------------------------------------------------------- */
@@ -2244,7 +2244,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
 }
-#portfolio .bricks-wrapper:before, 
+#portfolio .bricks-wrapper:before,
 #portfolio .bricks-wrapper:after {
   content: "";
   display: table;
@@ -2262,8 +2262,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   clear: both;
 }
 
-/* ------------------------------------------------------------------- 
- * masonry entries - (_layout.css) 
+/* -------------------------------------------------------------------
+ * masonry entries - (_layout.css)
  * ------------------------------------------------------------------- */
 .bricks-wrapper .item-wrap {
   position: relative;
@@ -2406,8 +2406,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   transform: translateX(0);
 }
 
-/* ------------------------------------------------------------------- 
- * Light Gallery Overrides - (_layout.css) 
+/* -------------------------------------------------------------------
+ * Light Gallery Overrides - (_layout.css)
  * ------------------------------------------------------------------- */
 .lg-sub-html {
   padding: 12px 20% 15px;
@@ -2456,7 +2456,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "montserrat-regular", sans-serif;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * portfolio
  * ------------------------------------------------------------------- */
@@ -2487,11 +2487,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 12rem 0 7.8rem;
   text-align: center;
 }
-#testimonials h2 {
+/* Removed specific color, keeping global structure */
+section h2 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #A585A5;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -2594,7 +2594,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-color: #000000;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * testimonials
  * ------------------------------------------------------------------- */
@@ -2923,7 +2923,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   display: block;
 }
 
-/* --------------------------------------------------------------- 
+/* ---------------------------------------------------------------
  * loader animation - (_layout.scss)
  * --------------------------------------------------------------- */
 .s-loader {
@@ -2980,9 +2980,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     transform: scale(1);
   }
 }
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * contact 
+ * contact
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
   .contact-info {
@@ -3185,7 +3185,7 @@ footer h4.h05::after {
   margin-bottom: 1rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * footer
  * ------------------------------------------------------------------- */

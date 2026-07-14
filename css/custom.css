@@ -1,0 +1,7 @@
+/* High contrast section headers */
+#testimonials h2,
+#media h2,
+#extramaterial h3 {
+    color: #000000 !important;
+    text-transform: uppercase !important;
+}
